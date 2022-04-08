@@ -1,0 +1,15 @@
+C:\Users\MarcosPauloMarquesCo\Desktop\POO-CSharp-NET-6.0\AgenciaBancaria\bin\Debug\net6.0\AgenciaBancaria.exe
+C:\Users\MarcosPauloMarquesCo\Desktop\POO-CSharp-NET-6.0\AgenciaBancaria\bin\Debug\net6.0\AgenciaBancaria.deps.json
+C:\Users\MarcosPauloMarquesCo\Desktop\POO-CSharp-NET-6.0\AgenciaBancaria\bin\Debug\net6.0\AgenciaBancaria.runtimeconfig.json
+C:\Users\MarcosPauloMarquesCo\Desktop\POO-CSharp-NET-6.0\AgenciaBancaria\bin\Debug\net6.0\AgenciaBancaria.dll
+C:\Users\MarcosPauloMarquesCo\Desktop\POO-CSharp-NET-6.0\AgenciaBancaria\bin\Debug\net6.0\AgenciaBancaria.pdb
+C:\Users\MarcosPauloMarquesCo\Desktop\POO-CSharp-NET-6.0\AgenciaBancaria\obj\Debug\net6.0\AgenciaBancaria.csproj.AssemblyReference.cache
+C:\Users\MarcosPauloMarquesCo\Desktop\POO-CSharp-NET-6.0\AgenciaBancaria\obj\Debug\net6.0\AgenciaBancaria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MarcosPauloMarquesCo\Desktop\POO-CSharp-NET-6.0\AgenciaBancaria\obj\Debug\net6.0\AgenciaBancaria.AssemblyInfoInputs.cache
+C:\Users\MarcosPauloMarquesCo\Desktop\POO-CSharp-NET-6.0\AgenciaBancaria\obj\Debug\net6.0\AgenciaBancaria.AssemblyInfo.cs
+C:\Users\MarcosPauloMarquesCo\Desktop\POO-CSharp-NET-6.0\AgenciaBancaria\obj\Debug\net6.0\AgenciaBancaria.csproj.CoreCompileInputs.cache
+C:\Users\MarcosPauloMarquesCo\Desktop\POO-CSharp-NET-6.0\AgenciaBancaria\obj\Debug\net6.0\AgenciaBancaria.dll
+C:\Users\MarcosPauloMarquesCo\Desktop\POO-CSharp-NET-6.0\AgenciaBancaria\obj\Debug\net6.0\refint\AgenciaBancaria.dll
+C:\Users\MarcosPauloMarquesCo\Desktop\POO-CSharp-NET-6.0\AgenciaBancaria\obj\Debug\net6.0\AgenciaBancaria.pdb
+C:\Users\MarcosPauloMarquesCo\Desktop\POO-CSharp-NET-6.0\AgenciaBancaria\obj\Debug\net6.0\AgenciaBancaria.genruntimeconfig.cache
+C:\Users\MarcosPauloMarquesCo\Desktop\POO-CSharp-NET-6.0\AgenciaBancaria\obj\Debug\net6.0\ref\AgenciaBancaria.dll
