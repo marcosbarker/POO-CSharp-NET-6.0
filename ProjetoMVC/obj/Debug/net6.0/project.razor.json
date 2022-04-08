@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\MarcosPauloMarquesCo\\Desktop\\POO-CSharp-DotNet\\ProjetoMVC\\ProjetoMVC.csproj",
+  "FilePath": "c:\\Users\\MarcosPauloMarquesCo\\Desktop\\POO-CSharp-NET-6.0\\ProjetoMVC\\ProjetoMVC.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "6.0",
@@ -16298,38 +16298,38 @@
   "RootNamespace": "ProjetoMVC",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\MarcosPauloMarquesCo\\Desktop\\POO-CSharp-DotNet\\ProjetoMVC\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\MarcosPauloMarquesCo\\Desktop\\POO-CSharp-DotNet\\ProjetoMVC\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\MarcosPauloMarquesCo\\Desktop\\POO-CSharp-DotNet\\ProjetoMVC\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\MarcosPauloMarquesCo\\Desktop\\POO-CSharp-DotNet\\ProjetoMVC\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\MarcosPauloMarquesCo\\Desktop\\POO-CSharp-DotNet\\ProjetoMVC\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\MarcosPauloMarquesCo\\Desktop\\POO-CSharp-DotNet\\ProjetoMVC\\Views\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\MarcosPauloMarquesCo\\Desktop\\POO-CSharp-NET-6.0\\ProjetoMVC\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\MarcosPauloMarquesCo\\Desktop\\POO-CSharp-DotNet\\ProjetoMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\Users\\MarcosPauloMarquesCo\\Desktop\\POO-CSharp-NET-6.0\\ProjetoMVC\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\MarcosPauloMarquesCo\\Desktop\\POO-CSharp-NET-6.0\\ProjetoMVC\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\MarcosPauloMarquesCo\\Desktop\\POO-CSharp-NET-6.0\\ProjetoMVC\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\MarcosPauloMarquesCo\\Desktop\\POO-CSharp-NET-6.0\\ProjetoMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\MarcosPauloMarquesCo\\Desktop\\POO-CSharp-NET-6.0\\ProjetoMVC\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\MarcosPauloMarquesCo\\Desktop\\POO-CSharp-NET-6.0\\ProjetoMVC\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     }
   ],
