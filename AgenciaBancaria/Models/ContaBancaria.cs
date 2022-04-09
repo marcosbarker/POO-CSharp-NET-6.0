@@ -1,3 +1,5 @@
+using AgenciaBancaria.Enums;
+
 namespace AgenciaBancaria.Models
 {
     public abstract class ContaBancaria
@@ -6,9 +8,11 @@ namespace AgenciaBancaria.Models
         public Titular Titular {get; set;}
         public double Saldo {get; private set;}
         public DateTime DataAbertura {get; private set;}
+        protected List<Movimentacao> Movimentacoes {get; private set;}
         protected readonly double VALOR_MINIMO = 10.0;
 
         #endregion
+
 
         #region Construtores
         public ContaBancaria(Titular titular, double saldoAbertura)
@@ -16,12 +20,26 @@ namespace AgenciaBancaria.Models
             Titular = titular;
             Saldo = saldoAbertura;
             DataAbertura = DateTime.Now;
+
+            Movimentacoes = new List<Movimentacao>()
+            {
+                new Movimentacao(TipoMovimentacao.ABERTURA_CONTA, saldoAbertura)
+            };
+          //var movimentacao = new Movimentacao(TipoMovimentacao.ABERTURA_CONTA, saldoAbertura);
+          //Movimentacoes.Add(movimentacao);
+          //ou
+          //Movimentacoes.Add(new Movimentacao(TipoMovimentacao.ABERTURA_CONTA, saldoAbertura));
         }
           public ContaBancaria(Titular titular)
         {
             Titular = titular;
             Saldo = 0.00;
             DataAbertura = DateTime.Now;
+            Movimentacoes = new List<Movimentacao>();
+              Movimentacoes = new List<Movimentacao>()
+            {
+                new Movimentacao(TipoMovimentacao.ABERTURA_CONTA, Saldo)
+            };
         }
         
         #endregion
@@ -36,6 +54,7 @@ namespace AgenciaBancaria.Models
             }
 
             Saldo += valor;
+            Movimentacoes.Add(new Movimentacao(TipoMovimentacao.DEPOSITO, valor));
         }
 
         public double Sacar(double valor)
@@ -51,6 +70,7 @@ namespace AgenciaBancaria.Models
             }
 
             Saldo -= valor;
+            Movimentacoes.Add(new Movimentacao(TipoMovimentacao.SAQUE, valor));
             return valor;
         }
 
@@ -69,6 +89,7 @@ namespace AgenciaBancaria.Models
 
             contaDestino.Depositar(valor);
             Saldo -= valor;
+            Movimentacoes.Add(new Movimentacao(TipoMovimentacao.TRANSFERENCIA, valor));
         }
 /*
         public virtual void ImprimirExtrato()
