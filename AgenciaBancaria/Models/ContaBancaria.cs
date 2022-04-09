@@ -17,6 +17,12 @@ namespace AgenciaBancaria.Models
             Saldo = saldoAbertura;
             DataAbertura = DateTime.Now;
         }
+          public ContaBancaria(Titular titular)
+        {
+            Titular = titular;
+            Saldo = 0.00;
+            DataAbertura = DateTime.Now;
+        }
         
         #endregion
     
@@ -26,7 +32,7 @@ namespace AgenciaBancaria.Models
         {
             if(valor < VALOR_MINIMO)
             {
-                throw new Exception("O valor minimo para deposito é R$" + VALOR_MINIMO);
+                throw new Exception("O valor minimo para deposito é R$ " + VALOR_MINIMO);
             }
 
             Saldo += valor;
@@ -36,11 +42,11 @@ namespace AgenciaBancaria.Models
         {
             if(valor < VALOR_MINIMO)
             {
-                throw new Exception("O valor minimo para saque é R$" + VALOR_MINIMO);
+                throw new Exception("O valor minimo para saque é R$ " + VALOR_MINIMO);
             }
             else if (valor > Saldo)
             {
-               throw new Exception("Saldo insuficiente para saque, seu saldo e R$" + Saldo);
+               throw new Exception("Saldo insuficiente para saque, seu saldo e R$ " + Saldo);
 
             }
 
@@ -53,15 +59,16 @@ namespace AgenciaBancaria.Models
         {
             if(valor < VALOR_MINIMO)
             {
-                throw new Exception("Valor minimo para tranferencia e de R$" + VALOR_MINIMO);
+                throw new Exception("Valor minimo para tranferencia e de R$ " + VALOR_MINIMO);
             }
              else if (valor > Saldo)
             {
-               throw new Exception("Saldo insuficiente para transferencia, seu saldo e R$" + Saldo);
+               throw new Exception("Saldo insuficiente para transferencia, seu saldo e R$ " + Saldo);
 
             }
 
             contaDestino.Depositar(valor);
+            Saldo -= valor;
         }
 
         #endregion
