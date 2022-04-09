@@ -11,7 +11,20 @@ namespace AgenciaBancaria.Models
 
         public override void ImprimirExtrato()
         {
-            Console.WriteLine("Imprimindo extrato da conta corrente");
+            Console.WriteLine();
+            Console.WriteLine("##########---Extrato Conta Corrente---##########");
+            Console.WriteLine();
+
+            Console.WriteLine("Gerado em: " + DateTime.Now);
+            Console.WriteLine();
+
+            foreach(var movimentacao in Movimentacoes)
+            {
+                Console.WriteLine(movimentacao.ToString());
+            }
+            
+            Console.WriteLine("Saldo atual: R$ " + Saldo);
+            Console.WriteLine("##########--------------------------##########");
         }        
     }
 }
