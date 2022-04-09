@@ -8,5 +8,9 @@ namespace AgenciaBancaria.Models
          public ContaPoupanca(Titular titular, double saldoAbertura) : base(titular, saldoAbertura)
         {
         }
+         public override void ImprimirExtrato()
+        {
+            Console.WriteLine("Imprimindo extrato da conta poupanca");
+        }
     }
 }

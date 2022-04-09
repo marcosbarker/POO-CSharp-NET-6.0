@@ -1,12 +1,12 @@
 namespace AgenciaBancaria.Models
 {
-    public class ContaBancaria
+    public abstract class ContaBancaria
     {
         #region Atributos
         public Titular Titular {get; set;}
         public double Saldo {get; private set;}
         public DateTime DataAbertura {get; private set;}
-        private readonly double VALOR_MINIMO = 10.0;
+        protected readonly double VALOR_MINIMO = 10.0;
 
         #endregion
 
@@ -70,6 +70,13 @@ namespace AgenciaBancaria.Models
             contaDestino.Depositar(valor);
             Saldo -= valor;
         }
+/*
+        public virtual void ImprimirExtrato()
+        {
+            Console.WriteLine("Imprimindo extrato");
+        }
+*/
+         public abstract void ImprimirExtrato();       
 
         #endregion
     }

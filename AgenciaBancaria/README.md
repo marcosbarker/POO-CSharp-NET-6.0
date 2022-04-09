@@ -9,4 +9,9 @@
     Transferencia
 
 - Consultar saldo
+- Nao deve ser possivel criar conta sem tipo
+- Cada tipo de conta tenha diferentes extratos
+
 - Movimentacoes bancarias
+    Classe para representar a movimentacao
+    lista de armazenamento das movimentacoes 
