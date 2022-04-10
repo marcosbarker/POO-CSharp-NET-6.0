@@ -1,6 +1,8 @@
+using SistemaHotel.Interfaces;
+
 namespace SistemaHotel.Models
 {
-    public class Recepcionista : Pessoa
+    public class Recepcionista : Pessoa, IRecepcionaista
     {
         public Recepcionista()
         {
@@ -10,9 +12,19 @@ namespace SistemaHotel.Models
         {
         }
 
+        public void AtenderTelefone()
+        {
+            Console.WriteLine("Sei atender o telefone.");
+        }
+
+        public void Falaringles()
+        {
+            Console.WriteLine("Sei falar ingles.");
+        }
+
         public override void SeApresentar()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Prazer, sou a recepcionista, meu nome é " + Nome);
         }
     }
 }
