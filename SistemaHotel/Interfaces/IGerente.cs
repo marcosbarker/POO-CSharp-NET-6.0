@@ -1,6 +1,6 @@
 namespace SistemaHotel.Interfaces
 {
-    public interface IGerente : ICamareira, IRecepcionaista
+    public interface IGerente : ICamareira, IRecepcionista
     {
         void ConhecimentoGeral();
     }

@@ -2,7 +2,7 @@ using SistemaHotel.Interfaces;
 
 namespace SistemaHotel.Models
 {
-    public class Recepcionista : Pessoa, IRecepcionaista
+    public class Recepcionista : Pessoa, IRecepcionista
     {
         public Recepcionista()
         {

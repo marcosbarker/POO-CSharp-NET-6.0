@@ -1,0 +1,15 @@
+C:\Users\MarcosPauloMarquesCo\Desktop\POO-CSharp-NET-6.0\SistemaHotel\obj\Debug\net6.0\SistemaHotel.csproj.AssemblyReference.cache
+C:\Users\MarcosPauloMarquesCo\Desktop\POO-CSharp-NET-6.0\SistemaHotel\obj\Debug\net6.0\SistemaHotel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MarcosPauloMarquesCo\Desktop\POO-CSharp-NET-6.0\SistemaHotel\obj\Debug\net6.0\SistemaHotel.AssemblyInfoInputs.cache
+C:\Users\MarcosPauloMarquesCo\Desktop\POO-CSharp-NET-6.0\SistemaHotel\obj\Debug\net6.0\SistemaHotel.AssemblyInfo.cs
+C:\Users\MarcosPauloMarquesCo\Desktop\POO-CSharp-NET-6.0\SistemaHotel\obj\Debug\net6.0\SistemaHotel.csproj.CoreCompileInputs.cache
+C:\Users\MarcosPauloMarquesCo\Desktop\POO-CSharp-NET-6.0\SistemaHotel\bin\Debug\net6.0\SistemaHotel.exe
+C:\Users\MarcosPauloMarquesCo\Desktop\POO-CSharp-NET-6.0\SistemaHotel\bin\Debug\net6.0\SistemaHotel.deps.json
+C:\Users\MarcosPauloMarquesCo\Desktop\POO-CSharp-NET-6.0\SistemaHotel\bin\Debug\net6.0\SistemaHotel.runtimeconfig.json
+C:\Users\MarcosPauloMarquesCo\Desktop\POO-CSharp-NET-6.0\SistemaHotel\bin\Debug\net6.0\SistemaHotel.dll
+C:\Users\MarcosPauloMarquesCo\Desktop\POO-CSharp-NET-6.0\SistemaHotel\bin\Debug\net6.0\SistemaHotel.pdb
+C:\Users\MarcosPauloMarquesCo\Desktop\POO-CSharp-NET-6.0\SistemaHotel\obj\Debug\net6.0\SistemaHotel.dll
+C:\Users\MarcosPauloMarquesCo\Desktop\POO-CSharp-NET-6.0\SistemaHotel\obj\Debug\net6.0\refint\SistemaHotel.dll
+C:\Users\MarcosPauloMarquesCo\Desktop\POO-CSharp-NET-6.0\SistemaHotel\obj\Debug\net6.0\SistemaHotel.pdb
+C:\Users\MarcosPauloMarquesCo\Desktop\POO-CSharp-NET-6.0\SistemaHotel\obj\Debug\net6.0\SistemaHotel.genruntimeconfig.cache
+C:\Users\MarcosPauloMarquesCo\Desktop\POO-CSharp-NET-6.0\SistemaHotel\obj\Debug\net6.0\ref\SistemaHotel.dll

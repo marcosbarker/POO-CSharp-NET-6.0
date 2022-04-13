@@ -28,5 +28,22 @@ namespace SistemaHotel.Models
         } 
 
         #endregion
+
+        #region Metodos
+
+        public  void ContratarGerente(IGerente gerente)
+        {
+            Gerente = gerente;
+        }
+        public  void ContratarCamareira(ICamareira camareira)
+        {
+            Camareiras.Add(camareira);
+        }
+        public  void ContratarRecepcionista(IRecepcionista recepcionista)
+        {
+            Recepcionistas.Add(recepcionista);
+        }
+
+        #endregion
     }
 }
