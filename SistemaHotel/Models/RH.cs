@@ -1,3 +1,4 @@
+using SistemaHotel.Exceptions;
 using SistemaHotel.Interfaces;
 
 namespace SistemaHotel.Models
@@ -26,6 +27,11 @@ namespace SistemaHotel.Models
 
         public void PromoverParaGerente(Camareira camareira)
         {
+            if (camareira.CPF == null)
+            {
+                throw new Exception("Regularize o CPF.");
+            }
+
             Hotel.ContratarGerente(new Gerente()
             {
                 Nome = camareira.Nome,
@@ -36,6 +42,11 @@ namespace SistemaHotel.Models
 
         public void PromoverParaGerente(Recepcionista recepcionista)
         {
+              if (recepcionista.CPF == null)
+            {
+                throw new DocumentosInvalidosEx("Regularize o CPF.");
+            }
+
             Hotel.ContratarGerente(new Gerente()
             {
                 Nome = recepcionista.Nome,
