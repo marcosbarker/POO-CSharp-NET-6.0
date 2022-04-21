@@ -27,7 +27,6 @@ namespace Pizzaria.Model.Pedido
             Bebida.Add(bebida);
             return this;
         }
-(
         public double ObterValorTotal()
         {
             return 10;
