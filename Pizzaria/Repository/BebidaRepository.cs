@@ -1,8 +1,9 @@
 using Pizzaria.Model;
+using Pizzaria.Repository.Interfaces;
 
 namespace Pizzaria.Repository
 {
-    public class BebidaRepository
+    public class BebidaRepository : ICrudRepository<Bebida>
     {
         private List<Bebida> _bebidas;
         private int _ultimoId = 0;

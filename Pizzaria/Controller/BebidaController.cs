@@ -1,9 +1,10 @@
+using Pizzaria.Controller.Interfaces;
 using Pizzaria.Model;
 using Pizzaria.Repository;
 
 namespace Pizzaria.Controller
 {
-    public class BebidaController
+    public class BebidaController : ICrudController<Bebida>
     {
         private BebidaRepository _repositoryBebida;
         public BebidaController(BebidaRepository repositoryBebida)
