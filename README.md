@@ -3,3 +3,4 @@
 ## Projetos Desenvolvidos:
 - [Agência Bancária](/AgenciaBancaria/)
 - [Sistema Hotel](/SistemaHotel/)
+- [Pizzaria](/Pizzaria/)
