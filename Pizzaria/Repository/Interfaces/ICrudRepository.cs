@@ -1,5 +1,9 @@
 namespace Pizzaria.Repository.Interfaces
 {
+    /// <summary>
+    /// Interface do Repositorio generico para construcao do modelo
+    /// </summary>
+    /// <typeparam name="T">Modelo, entidade que sera persistida</typeparam>
     public interface ICrudRepository<T> //interface
     {
         T Adiciona (T modelo );
