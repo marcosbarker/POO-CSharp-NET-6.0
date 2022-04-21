@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MarcosPauloMarquesCo\\Desktop\\POO-CSharp-DotNet\\ProjetoConsole\\ProjetoConsole.csproj": {}
+    "C:\\Users\\MarcosPauloMarquesCo\\Desktop\\POO-CSharp-NET-6.0\\ProjetoConsole\\ProjetoConsole.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MarcosPauloMarquesCo\\Desktop\\POO-CSharp-DotNet\\ProjetoConsole\\ProjetoConsole.csproj": {
+    "C:\\Users\\MarcosPauloMarquesCo\\Desktop\\POO-CSharp-NET-6.0\\ProjetoConsole\\ProjetoConsole.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MarcosPauloMarquesCo\\Desktop\\POO-CSharp-DotNet\\ProjetoConsole\\ProjetoConsole.csproj",
+        "projectUniqueName": "C:\\Users\\MarcosPauloMarquesCo\\Desktop\\POO-CSharp-NET-6.0\\ProjetoConsole\\ProjetoConsole.csproj",
         "projectName": "ProjetoConsole",
-        "projectPath": "C:\\Users\\MarcosPauloMarquesCo\\Desktop\\POO-CSharp-DotNet\\ProjetoConsole\\ProjetoConsole.csproj",
+        "projectPath": "C:\\Users\\MarcosPauloMarquesCo\\Desktop\\POO-CSharp-NET-6.0\\ProjetoConsole\\ProjetoConsole.csproj",
         "packagesPath": "C:\\Users\\MarcosPauloMarquesCo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MarcosPauloMarquesCo\\Desktop\\POO-CSharp-DotNet\\ProjetoConsole\\obj\\",
+        "outputPath": "C:\\Users\\MarcosPauloMarquesCo\\Desktop\\POO-CSharp-NET-6.0\\ProjetoConsole\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MarcosPauloMarquesCo\\AppData\\Roaming\\NuGet\\NuGet.Config",
